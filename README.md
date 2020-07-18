@@ -23,11 +23,16 @@ Commit your code regularly and meaningfully. This practice helps both you (in ca
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your answers beforehand.
 
 1. Hashing functions
+hashing functions are used to easily encrypt and store and retrieve data
 2. Collision resolution
+because of the limited size of storage collisions can happen essentially the hashing returns the same number for a different set a kvp in which case a node will branch into a LL
 3. Performance of basic hash table operations
+hash functions contain CRUD create a index read or find a index update or overwrite the hashed value and deletion or removing
 4. Load factor
+a load factor shows how much pressure is placed on the lookup if it gets too taxed it can slow optimization
 5. Automatic resizing
 6. Various use cases for hash tables
+quick sort memoiztion lookup encryption
 
 We expect you to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
