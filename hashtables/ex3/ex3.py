@@ -3,6 +3,18 @@ def intersection(arrays):
     YOUR CODE HERE
     """
     # Your code here
+    cross = {}
+    
+    for singles in arrays:
+        for value in singles:
+            if value not in cross:
+                cross[value] = 1
+            else:
+                cross[value] += 1
+                
+    
+                
+    
 
     return result
 
