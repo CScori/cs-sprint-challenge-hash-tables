@@ -12,7 +12,15 @@ def intersection(arrays):
             else:
                 cross[value] += 1
                 
-    
+    reverse = {}
+                
+    for key, value in cross.items():
+        if value not in reverse:
+            reverse[value] = [key]
+        else:
+            reverse[value].append(key)
+            
+    result = reverse[len(arrays)]
                 
     
 
